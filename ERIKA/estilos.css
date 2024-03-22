@@ -1,0 +1,75 @@
+/* Reset de estilos */
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'comic sans MS', 'comic sans MS';
+    line-height: 1.6;
+    background-color: rgb(221, 172, 236);
+      
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color:#ec0977;
+    padding-top: 20px;
+    min-height: 70px;
+}
+
+header h1 {
+    float: left;
+}
+
+header nav {
+    float: right;
+    margin-top: 25px;
+}
+
+header nav a {
+    color: #ec0977;
+    text-decoration: none;
+    margin-left: 80px;
+    display: inline-block;
+}
+
+section {
+    padding: 20px 0;
+}
+
+footer {
+    background: #333;
+    color: #ec0977;
+    text-align: center;
+    padding: 8px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+}
+p {
+    margin-bottom: 20px; /* Esto añadirá un espacio de 20px en la parte inferior de cada párrafo */
+}
+#inicio{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 5px 5px 5px;
+}
+#logoInicio{
+    height: 320px;
+    width: 300px;
+    margin-left: 400px;
+    margin-bottom: 0px;
+    padding: 5px 5px 5px 5px;
+    position: relative;
+    left: 23%;
+}
+.navegadorP{
+    padding: 5px 50px 5px 5px;
+}
